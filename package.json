@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "banner-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+ 
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
