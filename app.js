@@ -14,7 +14,7 @@ xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 1280 320">
 
 <image
-        href="https://raw.githubusercontent.com/princi-2306/banner-svg/refs/heads/main/public/banner.jpeg"
+        href="https://raw.githubusercontent.com/princi-2306/banner-svg/main/public/banner.jpeg"
         x="0"
         y="0"
         width="1280"
