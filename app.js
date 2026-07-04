@@ -14,7 +14,7 @@ xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 1280 320">
 
 <image
-        href="/banner.jpeg"
+        href="https://raw.githubusercontent.com/princi-2306/banner-svg/refs/heads/main/public/banner.jpeg"
         x="0"
         y="0"
         width="1280"
@@ -82,5 +82,5 @@ viewBox="0 0 1280 320">
 `);
 
 });
-
+app.listen(3000)
 export default app;
