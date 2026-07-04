@@ -82,5 +82,5 @@ viewBox="0 0 1280 320">
 `);
 
 });
-app.listen(3000)
+
 export default app;
