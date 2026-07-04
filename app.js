@@ -14,7 +14,7 @@ xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 1280 320">
 
 <image
-        href="https://drive.google.com/file/d/1PpJJ81FT-RofbSHnUuwqFra6gOwnfTaX/view?usp=sharing"
+        href="/banner.jpeg"
         x="0"
         y="0"
         width="1280"
