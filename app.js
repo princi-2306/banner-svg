@@ -31,39 +31,55 @@ app.get("/", (req, res) => {
     preserveAspectRatio="xMidYMid slice"/>
 
   <style>
-    .title{
-      font: bold 48px Arial, sans-serif;
-      fill:#000000;
+  .title{
+    font: bold 84px Arial, sans-serif;
+    fill:#000000;
+    opacity:0;
+    animation:fadeIn 2s forwards;
+  }
+
+  .subtitle{
+    font:bold 36px Arial, sans-serif;
+    fill:#000000;
+    opacity:0;
+    animation:fadeIn 2s .6s forwards;
+  }
+
+  @keyframes fadeIn{
+    from{
       opacity:0;
-      animation:fadeIn 2s forwards;
+      transform:translateY(20px);
     }
-
-    .subtitle{
-      font:bold 22px Arial, sans-serif;
-      fill:#000000;
-      opacity:0;
-      animation:fadeIn 2s .6s forwards;
+    to{
+      opacity:1;
+      transform:translateY(0px);
     }
+  }
+</style>
 
-    @keyframes fadeIn{
-      from{
-        opacity:0;
-        transform:translateY(20px);
-      }
-      to{
-        opacity:1;
-        transform:translateY(0px);
-      }
-    }
-  </style>
+<text
+  class="title"
+  x="640"
+  y="150"
+  text-anchor="middle"
+  fill="#000"
+  stroke="#8b0000"
+  stroke-width="3.5"
+  paint-order="stroke fill">
+  Priyanshi
+</text>
 
-  <text class="title" x="640" y="145" text-anchor="middle" fill="#000" stroke="#8b0000" stroke-width="2.5" paint-order="stroke fill">
-    Priyanshi
-  </text>
-
-  <text class="subtitle" x="640" y="190" text-anchor="middle" fill="#000" stroke="#8b0000" stroke-width="2.5" paint-order="stroke fill">
-    a fullstack developer
-  </text>
+<text
+  class="subtitle"
+  x="640"
+  y="215"
+  text-anchor="middle"
+  fill="#000"
+  stroke="#8b0000"
+  stroke-width="2.5"
+  paint-order="stroke fill">
+  Full Stack Developer
+</text>
 </svg>
 `);
 });
