@@ -63,7 +63,7 @@ app.get("/", (req, res) => {
   y="150"
   text-anchor="middle"
   fill="#000"
-  stroke="#8b0000"
+  stroke="#b99393"
   stroke-width="3.5"
   paint-order="stroke fill">
   Priyanshi
@@ -75,7 +75,7 @@ app.get("/", (req, res) => {
   y="215"
   text-anchor="middle"
   fill="#000"
-  stroke="#8b0000"
+  stroke="#863f39"
   stroke-width="2.5"
   paint-order="stroke fill">
   Full Stack Developer
